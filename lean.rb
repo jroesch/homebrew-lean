@@ -4,6 +4,8 @@ class Lean < Formula
   homepage "http://leanprover.github.io"
   url "https://github.com/leanprover/lean.git"
   version "0.2.0.20160602210703.gitc73b2860d5211187e9aa1039d1a49dcabdca4292"
+  
+  head "https://github.com/jroesch/lean.git", branch: 'lean3-cg'
 
   bottle do
     root_url 'https://dl.bintray.com/lean/lean'
